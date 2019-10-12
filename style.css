@@ -32,12 +32,12 @@ width: 100%
 }
 .obsah {
 background-color:  #31363b;
-font-family: sans-serif;
-color: black;
+font-family: 'Source Sans Pro', sans-serif;
+color: rgb(190, 199, 199);
 padding: 0 15px;
 }
 .jmeno,.odkazy{
-    font-family: 'Montserrat', sans-serif;
+    font-family: 'Montserrat', 'Source Sans Pro';
     color: azure;
 }
 .logo {
@@ -45,4 +45,49 @@ padding: 0 15px;
     bottom: -10%;
     border-radius: 50%;
     right: 25px;
+    position: absolute;
+}
+.hlavicka {
+    position: relative;
+}
+h1 {
+    margin-top: 30px;
+    font-size: 25px;
+    color: white;
+}
+.odkazy {
+    list-style: none;
+    padding-left: 0%;
+    text-align: center;
+    font-weight: 600;  
+}
+.odkazy a {
+    color:  rgb(190, 199, 199);
+    text-transform: uppercase;
+    text-decoration-line: none;
+    font-size: 13px;
+    display: inline-block;
+    font-family: 'Montserrat';
+    padding: 15px;
+
+}
+/* rámeček pro facebook */
+.facebook {
+    width: 50%;
+    display: inline-block;
+    border-width: 1px;
+    border-style: solid;
+    background-color: #31363b;
+      }
+.twitter {
+    width: 50%;
+    display: inline-block;
+    border-width: 1px;
+    border-style: solid;
+    background-color: #1da1f2
+    }
+.portfolio {
+border-width: 1px;
+border-style: solid;
+background-color: #31363b;
 }
