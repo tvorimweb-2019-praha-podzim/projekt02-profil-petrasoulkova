@@ -15,5 +15,34 @@ html { box-sizing: border-box; }
 
 
 body {
+    width: 250px;
     background-color: #bdc3c7;
+   color: #bdc3c7
+}
+.profil {
+width: 250px;
+background-color: #31363b;
+box-shadow: 3px 5px 20px rgb(0,0,0,0.5)
+}
+.foto {
+width: 100%
+}   
+.stin {
+    box-shadow: 3px 5px 20px rgb(0,0,0,0.5);
+}
+.obsah {
+background-color:  #31363b;
+font-family: sans-serif;
+color: black;
+padding: 0 15px;
+}
+.jmeno,.odkazy{
+    font-family: 'Montserrat', sans-serif;
+    color: azure;
+}
+.logo {
+    background-color: #b92e81;
+    bottom: -10%;
+    border-radius: 50%;
+    right: 25px;
 }
