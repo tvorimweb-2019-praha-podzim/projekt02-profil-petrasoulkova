@@ -16,7 +16,7 @@ html { box-sizing: border-box; }
 
 body {
     width: 250px;
-    background-color: #bdc3c7;
+    background-color: #f1f3f5;
    color: #bdc3c7
 }
 .profil {
@@ -32,6 +32,7 @@ width: 100%
 }
 .obsah {
 background-color:  #31363b;
+width: 100%;
 font-family: 'Source Sans Pro', sans-serif;
 color: rgb(190, 199, 199);
 padding: 0 15px;
@@ -58,6 +59,7 @@ h1 {
 .odkazy {
     list-style: none;
     padding-left: 0%;
+    font-family: 'Montserrat';
     text-align: center;
     font-weight: 600;  
 }
@@ -68,26 +70,26 @@ h1 {
     font-size: 13px;
     display: inline-block;
     font-family: 'Montserrat';
+    font-style: bold;
     padding: 15px;
-
 }
 /* rámeček pro facebook */
 .facebook {
     width: 50%;
     display: inline-block;
-    border-width: 1px;
-    border-style: solid;
     background-color: #31363b;
-          }
+      }
 .twitter {
     width: 50%;
     display: inline-block;
     border-width: 1px;
-    border-style: solid;
-    background-color: #1da1f2
+    background-color: #1da1f2;
     }
 .portfolio {
 border-width: 1px;
 border-style: solid;
+border-top-color: #3f464d;
+border-bottom-color: #3f464d;
+border-color: #3f464d;
 background-color: #31363b;
 }
